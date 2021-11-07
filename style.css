@@ -13,6 +13,7 @@ body {
 }
 
 .home {
+  flex-wrap: wrap;
   background-color: blue;
   display: flex;
   background-image: url(img/image2.png);
@@ -22,6 +23,7 @@ body {
 }
 
 .nav {
+  flex-wrap: wrap;
   display: flex;
   background-color: rgb(0, 0, 0, .7);
   justify-content: space-between;
@@ -32,7 +34,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-
+  flex-wrap: wrap;
 }
 
 .moringa1 {
@@ -44,6 +46,7 @@ body {
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   color: white;
   align-items: center;
   justify-content: center;
@@ -93,8 +96,10 @@ a {
 .services {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
   background-color: rgb(227, 227, 227);
+  padding: 50px 10% 100px 10%;
 }
 
 .pagetitle {
@@ -108,25 +113,17 @@ a {
   line-height: 34px;
   font-weight: medium;
 }
-
-.services {
-  text-align: center;
-  padding: 200px 0px 100px 10px;
-  align-content: center;
-  background-color: whitesmoke;
-}
-
-
-.column {
-  float: left;
-  background-color: white;
-  width: 22%;
-  padding: 50px 30px;
-  margin: 40px 2% 0px 5%;
+.row{
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;text-align: center;
+  justify-content: space-evenly;
+}
+.column {
+  margin-top: 40px;
+  background-color: white;
+  padding: 30px 30px 60px 30px;
+  align-items: center;
 }
 
 .numbers {
@@ -135,9 +132,10 @@ a {
   font-size: 30px;
   font-weight: 800;
   border-radius: 50%;
-  padding: 30px 39px;
+  padding: 21px 30px;
   width: fit-content;
-  margin: 10px 40%;
+  margin: 0px 40% 30px 40%;
+  align-items: center;
 
 }
 
@@ -158,17 +156,38 @@ a {
   background-color: black;
   color: white;
   width: 50%;
-  height: max-content;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
+.reviewstitle{
+  font-size: 70px;
+  font-weight: 500;
+}
+.organic{
+  font-size: 36px;
+  padding: 20px;
+}
+.story{
+  font-size: 20px;
+  padding: 20px;
+}
+.name{
+  font-size: 24px;
+  padding: 20px;
+}
 .imageside {
   width: 50%;
+  height: 750px;
   background-image: url(img/image1.png);
   background-size: cover;
 }
 
 .menu {
   display: flex;
+  padding: 100px 10px;
   flex-direction: column;
   background-color: rgb(227, 227, 227);
 }
@@ -200,12 +219,19 @@ a {
   font-weight: 900;
   font-size: 26px;
 }
+.titlefood{
+  font-size: 36px;
+}
+.textcard{
+  font-size: 24px;
+  font-weight: 300;
+}
 
 .orderfood {
   border: none;
   font-size: 20px;
   font-weight: medium;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 40px 10px 40px;
 }
 
 .cardtext {
@@ -218,8 +244,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 259px;
-  width: 259px;
+  height: 282px;
+  width: 282px;
 }
 
 .image2 {
@@ -227,8 +253,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 259px;
-  width: 259px;
+  height: 282px;
+  width: 282px;
 }
 
 .image3 {
@@ -236,8 +262,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 259px;
-  width: 259px;
+  height: 282px;
+  width: 282px;
 }
 
 .image4 {
@@ -245,8 +271,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 259px;
-  width: 259px;
+  height: 282px;
+  width: 282px;
 }
 
 .book {
@@ -254,12 +280,12 @@ a {
   background-image: url(img/image8.png);
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 20px;
   color: white;
 }
 
 .bookmoringa {
-  margin-top: 120px;
+  background-color: #f19201;
+  margin-top: 150px;
   font-size: 34px;
   font-weight: lighter;
 }
