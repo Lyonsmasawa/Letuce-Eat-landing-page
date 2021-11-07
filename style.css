@@ -14,7 +14,7 @@ body {
 
 .home {
   flex-wrap: wrap;
-  background-color: blue;
+  background-color:whitesmoke;
   display: flex;
   background-image: url(img/image2.png);
   flex-direction: column;
