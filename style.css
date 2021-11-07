@@ -181,3 +181,10 @@ a {
   padding: 5px 0px;
   font-size: 42px;
 }
+.footer{
+  background-color: black;
+  color: rgba(196, 194, 194, 0.8);
+  font-weight:100;
+  font-size: 20px;
+  padding: 5px;
+}
