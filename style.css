@@ -86,8 +86,10 @@ a {
 }
 
 .pagetext{
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
+  line-height: 34px;
+  font-weight: medium;
 }
 .services {
   text-align: center;
@@ -123,7 +125,7 @@ a {
   font-size: 24px;
 }
 .writing{
-  font-size: 21px;
+  font-size: 22px;
 }
 .reviews{
   display: flex;
@@ -138,6 +140,44 @@ a {
 .imageside{
   width: 50%;
   background-image: url(img/image1.png);
+  background-size: cover; 
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+}
+.cards{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+}
+.book{
+  background-image: url(img/image8.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  
+  font-size: 20px;
+  color: white;
+}
+.bookmoringa{
+  margin-top: 120px;
+  font-size: 34px;
+  font-weight: lighter;
+}
+.booknow{
+  color: white;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 15px 70px;
+  font-weight: bolder;
+  border-color:white;
+  margin: 30px 0px 120px 0px;
+  border-width: 3px;
+}
+.booktitle{
+  padding: 5px 0px;
+  font-size: 42px;
 }
