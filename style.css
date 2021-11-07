@@ -113,12 +113,15 @@ a {
   line-height: 34px;
   font-weight: medium;
 }
-.row{
+
+.row {
   display: flex;
   align-items: center;
-  column-gap: 30px;text-align: center;
+  column-gap: 30px;
+  text-align: center;
   justify-content: space-evenly;
 }
+
 .column {
   margin-top: 40px;
   background-color: white;
@@ -162,22 +165,27 @@ a {
   align-items: center;
   justify-content: center;
 }
-.reviewstitle{
+
+.reviewstitle {
   font-size: 70px;
   font-weight: 500;
 }
-.organic{
+
+.organic {
   font-size: 36px;
   padding: 20px;
 }
-.story{
+
+.story {
   font-size: 20px;
   padding: 20px;
 }
-.name{
+
+.name {
   font-size: 24px;
   padding: 20px;
 }
+
 .imageside {
   width: 50%;
   height: 750px;
@@ -219,10 +227,12 @@ a {
   font-weight: 900;
   font-size: 26px;
 }
-.titlefood{
+
+.titlefood {
   font-size: 36px;
 }
-.textcard{
+
+.textcard {
   font-size: 24px;
   font-weight: 300;
 }
