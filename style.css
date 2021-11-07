@@ -78,16 +78,16 @@ a {
 
 .order {
   color: white;
-  font-size: 56px;
+  font-size: 58px;
   font-weight: 900;
-  padding: 110px 3%;
+  padding: 110px 4%;
 }
 
 .ordernow {
   font-size: 24px;
   color: white;
   font-weight: bolder;
-  padding: 10px 25px;
+  padding: 20px 50px;
   margin-left: 20px;
   background-color: #f19201;
   border: none;
