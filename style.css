@@ -74,4 +74,57 @@ a {
   background-color: #f19201;
   border: none;
 }
-.services
+.services{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+}
+.pagetitle{
+  font-size: 36px;
+  color: #f19201;
+}
+
+.pagetext{
+  font-size: 18px;
+  font-style: italic;
+}
+.services {
+  text-align: center;
+  padding: 200px 0px 150px 10px;
+  align-content: center;
+  background-color: whitesmoke;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 100px;
+}
+
+.column {
+  float: left;
+  background-color: white;
+  padding: 70px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.numbers{
+  background-color: #f19201;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  border-radius: 50%;
+  padding: 30px 39px;
+  width: fit-content;
+  margin: 10px 40% ;
+
+}
+.writingtitle{
+  font-size: 24px;
+}
+.writing{
+  font-size: 21px;
+}
