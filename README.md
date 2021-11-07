@@ -21,8 +21,8 @@ Sample restaurant Landing page.
 
 ## Language used
 This is a restaurant landing page template made of only HTML and CSS.
-  -HTML for the page structure.
-  -CSS for the page styling
+  >HTML for the page structure.
+  >CSS for the page styling
 
 ## To use the template.
 ```
@@ -67,5 +67,6 @@ good luck
 
 ## Author
 * Lyons Albert Masawa.
+
 
 [Go Back to the top](#Lettuce-eat)
