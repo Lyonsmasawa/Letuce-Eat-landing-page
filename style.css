@@ -172,6 +172,12 @@ a {
   font-weight: 500;
 }
 
+span {
+  text-decoration-line: underline;
+  text-underline-offset: 30px;
+  text-decoration-thickness: 3.5px;
+}
+
 .organic {
   font-size: 36px;
   padding: 20px;
