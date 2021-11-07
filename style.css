@@ -2,36 +2,47 @@
   font-family: Roboto;
   src: url(fonts/roboto/Roboto-Regular.ttf);
 }
-body{
+
+* {
+  box-sizing: border-box;
+}
+
+body {
   font-family: Roboto;
   box-sizing: border-box;
 }
-.home{
-  background-color:blue;
+
+.home {
+  background-color: blue;
   display: flex;
   background-image: url(img/image2.png);
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.nav{
+
+.nav {
   display: flex;
-  background-color:rgb(0, 0, 0, .7);
+  background-color: rgb(0, 0, 0, .7);
   justify-content: space-between;
   align-items: center;
   padding: 0px 4%;
 }
-.logo{
+
+.logo {
   display: flex;
   align-items: center;
+
 }
-.moringa1{
+
+.moringa1 {
   padding: 10px;
   font-size: 24px;
   color: #f19201;
   font-weight: 900;
 }
-.navbar{
+
+.navbar {
   display: flex;
   color: white;
   align-items: center;
@@ -40,7 +51,8 @@ body{
   font-size: 22px;
   justify-content: space-around;
 }
-.nav .moringa{
+
+.nav .moringa {
   padding: 15px 26px;
   text-align: center;
   font-size: 24px;
@@ -51,21 +63,24 @@ body{
   margin-left: 60px;
 }
 
-li{
+li {
   list-style: none;
   padding: 0px 30px;
 }
+
 a {
   color: #f19201;
   text-decoration: none;
 }
-.order{
+
+.order {
   color: white;
   font-size: 56px;
   font-weight: 900;
   padding: 110px 3%;
 }
-.ordernow{
+
+.ordernow {
   font-size: 24px;
   color: white;
   font-weight: bolder;
@@ -74,23 +89,26 @@ a {
   background-color: #f19201;
   border: none;
 }
-.services{
+
+.services {
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: rgb(227, 227, 227);
 }
-.pagetitle{
+
+.pagetitle {
   font-size: 36px;
   color: #f19201;
 }
 
-.pagetext{
+.pagetext {
   font-size: 20px;
   font-style: italic;
   line-height: 34px;
   font-weight: medium;
 }
+
 .services {
   text-align: center;
   padding: 200px 0px 100px 10px;
@@ -110,7 +128,8 @@ a {
   text-align: center;
   justify-content: space-between;
 }
-.numbers{
+
+.numbers {
   background-color: #f19201;
   color: white;
   font-size: 30px;
@@ -118,73 +137,154 @@ a {
   border-radius: 50%;
   padding: 30px 39px;
   width: fit-content;
-  margin: 10px 40% ;
+  margin: 10px 40%;
 
 }
-.writingtitle{
+
+.writingtitle {
   font-size: 24px;
 }
-.writing{
+
+.writing {
   font-size: 22px;
 }
-.reviews{
+
+.reviews {
   display: flex;
-  text-align: center; 
+  text-align: center;
 }
-.reviewtext{
+
+.reviewtext {
   background-color: black;
   color: white;
   width: 50%;
-  height: max-content;  
+  height: max-content;
 }
-.imageside{
+
+.imageside {
   width: 50%;
   background-image: url(img/image1.png);
-  background-size: cover; 
+  background-size: cover;
 }
-.menu{
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(227, 227, 227);
+}
+
+.textcent {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: rgb(227, 227, 227);
 }
-.cards{
+
+.cards {
   display: flex;
+  padding: 30px 50px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 20px;
+  column-gap: 70px;
+  row-gap: 40px;
 }
-.book{
+
+.cardcontent {
+  display: flex;
+  background-color: white;
+  padding: 20px 30px;
+}
+
+.cash {
+  color: #f19201;
+  font-weight: 900;
+  font-size: 26px;
+}
+
+.orderfood {
+  border: none;
+  font-size: 20px;
+  font-weight: medium;
+  padding: 10px 30px 10px 30px;
+}
+
+.cardtext {
+  padding: 0px 0px 0px 30px;
+  font-size: 20px;
+}
+
+.image1 {
+  background-image: url(img/image4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 259px;
+  width: 259px;
+}
+
+.image2 {
+  background-image: url(img/iamge5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 259px;
+  width: 259px;
+}
+
+.image3 {
+  background-image: url(img/image6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 259px;
+  width: 259px;
+}
+
+.image4 {
+  background-image: url(img/image7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 259px;
+  width: 259px;
+}
+
+.book {
+  text-align: center;
   background-image: url(img/image8.png);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 20px;
   color: white;
 }
-.bookmoringa{
+
+.bookmoringa {
   margin-top: 120px;
   font-size: 34px;
   font-weight: lighter;
 }
-.booknow{
+
+.booknow {
   color: white;
   background-color: transparent;
   font-size: 22px;
-  padding: 15px 70px;
+  padding: 12px 65px;
   font-weight: bolder;
-  border-color:white;
+  border-color: white;
   margin: 30px 0px 120px 0px;
   border-width: 3px;
 }
-.booktitle{
+
+.booktitle {
   padding: 5px 0px;
-  font-size: 42px;
+  font-size: 40px;
 }
-.footer{
+
+.footer {
+  text-align: center;
   background-color: black;
-  color: rgba(196, 194, 194, 0.8);
-  font-weight:100;
+  color: rgba(196, 194, 194, 0.7);
+  font-weight: 100;
   font-size: 20px;
   padding: 5px;
 }
