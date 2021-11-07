@@ -196,7 +196,7 @@ a {
 
 .menu {
   display: flex;
-  padding: 100px 10px 0px 10px;
+  padding: 100px 10px 80px 10px;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: rgb(227, 227, 227);
