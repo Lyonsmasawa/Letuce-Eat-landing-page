@@ -116,6 +116,7 @@ a {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 30px;
   text-align: center;
@@ -234,7 +235,8 @@ a {
 
 .textcard {
   font-size: 24px;
-  font-weight: 300;
+  color: rgba(66, 66, 66, .9);
+  font-weight: 100;
 }
 
 .orderfood {
@@ -285,42 +287,3 @@ a {
   width: 282px;
 }
 
-.book {
-  text-align: center;
-  background-image: url(img/image8.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-
-.bookmoringa {
-  background-color: #f19201;
-  margin-top: 150px;
-  font-size: 34px;
-  font-weight: lighter;
-}
-
-.booknow {
-  color: white;
-  background-color: transparent;
-  font-size: 22px;
-  padding: 12px 65px;
-  font-weight: bolder;
-  border-color: white;
-  margin: 30px 0px 120px 0px;
-  border-width: 3px;
-}
-
-.booktitle {
-  padding: 5px 0px;
-  font-size: 40px;
-}
-
-.footer {
-  text-align: center;
-  background-color: black;
-  color: rgba(196, 194, 194, 0.7);
-  font-weight: 100;
-  font-size: 20px;
-  padding: 5px;
-}
